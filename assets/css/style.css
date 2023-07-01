@@ -1,3 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Alike+Angular&family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alike+Angular&family=Lato:wght@300&display=swap');
+
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+
+}
+
 body {
-    font-family: Arial;
+    font-family: Lato, sans-serif;
+    font-weight: 300px;
+    color: #3a3a3a;
+}
+
+/*headings and logo*/
+
+h1,
+h2 {
+    text-decoration: none;
+    font-family: Oswald, sans-serif;
+    text-transform: uppercase;
+    color: #252525;
+    letter-spacing: 4px;
+}
+
+#logo {
+    float: left;
+    font-size: 280%;
+}
+
+#menu {
+    font-size: 110%;
+    letter-spacing: 4px;
+}
+
+#menu,
+#logo {
+    line-height: 75px;
+}
+
+#menu li {
+    float: right;
+    margin-right: 40px;
+    list-style-type: none;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover {
+    border-bottom: 1px solid #3a3a3a;
+}
+
+.active {
+    border-bottom: 1px solid #3a3a3a;
 }
