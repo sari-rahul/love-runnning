@@ -9,7 +9,7 @@
 }
 
 body {
-    font-family: Lato, sans-serif;
+    font-family: Oswald, sans-serif;
     font-weight: 300px;
     color: #3a3a3a;
 }
@@ -19,15 +19,16 @@ body {
 h1,
 h2 {
     text-decoration: none;
-    font-family: Oswald, sans-serif;
+    font-family: Lato, sans-serif;
     text-transform: uppercase;
     color: #252525;
-    letter-spacing: 4px;
+    letter-spacing:2px;
 }
 
 #logo {
     float: left;
     font-size: 280%;
+    margin-left:20px;
 }
 
 #menu {
@@ -94,7 +95,7 @@ h2 {
 
 #cover-text{
     font-size:130%;
-    font-family:Oswald,sans-serif;
+    font-family:oswald,sans-serif;
     text-transform:uppercase;
     letter-spacing:4px;
 
@@ -109,7 +110,29 @@ h2 {
 
     position:absolute;
 
-    background-color:rbga(182,182,182,0.4);
+    background-color:silver;
     
-}   
+}  
 
+#club-ethos{
+    height:600px;
+}
+
+#left-about{
+    padding-top:30px;
+    width:33%;
+    float:left;
+    background-color:red;
+}
+#right-about{
+    padding-top:30px;
+    width:33%;
+    float:right;
+    background-color:blue;
+}
+#center{
+    padding-top:30px;
+    width:33%;
+    margin:0 auto;
+    background-color:green;
+}
