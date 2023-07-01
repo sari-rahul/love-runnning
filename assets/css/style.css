@@ -186,3 +186,40 @@ hr {
     overflow: hidden;
     width: 100%;
 }
+
+#times div {
+    width: 20%;
+    color: #fafafa;
+    background-color: rgba(0, 0, 0, .6);
+    height: 300px;
+    float: left;
+    box-sizing: border-box;
+    border: 2px solid #fafafa;
+
+    padding: 30px;
+    text-align: center;
+}
+
+#times h2 {
+    color: #fafafa;
+}
+
+footer {
+    height: 150px;
+}
+
+.social-networks {
+    text-align: center;
+
+}
+
+.social-networks li {
+    display: inline;
+}
+
+.social-networks i {
+    margin: 1%;
+    padding: 5%;
+    color: #3a3a3a;
+    font-size: 160%;
+}
