@@ -240,7 +240,7 @@ footer {
 
 /*media queries*/
 /* media queries for screens 1200 and down*/
-@media screen and (max-width:1200px) {
+@media screen and (max-width: 1200px) {
     #club-ethos {
         width: 65%;
         height: 1200px;
@@ -257,12 +257,11 @@ footer {
         width: 100%;
         float: left;
         padding: 0;
-
     }
 
     #center-about {
-        width: 100%;
         clear: both;
+        width: 100%;
         float: left;
         padding: 0;
     }
@@ -270,19 +269,12 @@ footer {
     hr {
         display: none;
     }
-
-    #times>div {
-        width: 100%;
-        height: 150px;
-        clear: both;
-        padding: 0;
-    }
-
 }
 
-/*Media queries for 950px*/
-@media screen and (max-width:950px) {
 
+/*Media queries for 950px*/
+
+@media screen and (max-width: 950px) {
 
     #menu {
         clear: left;
@@ -300,12 +292,6 @@ footer {
         width: 90%;
         height: 1200px;
         margin: 0 auto;
-        text-align: center;
-    }
-
-    #left-about,
-    #right-about {
-        float: left;
     }
 
     .left-about-heading,
@@ -317,21 +303,12 @@ footer {
     .right-about-heading h2 {
         width: 100%;
         text-align: center;
-
     }
 
     .left-about-heading p,
     .right-about-heading p {
         text-align: center;
         padding: 0 20px;
-    }
-
-    #outer-circle {
-        margin-left: 0;
-    }
-
-    #photos {
-        column-count: 3;
     }
 }
 
